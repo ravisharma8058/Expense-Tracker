@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Home</title>
+  <style>
+    li {
+      margin: 20px;
+      list-style: none;
+      font-family: serif;
+      /* text-decoration: none;
+            color: inherit; */
+
+
+
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    ul {
+      padding-left: 550px;
+      display: flex;
+    }
+
+    .head {
+      background-color:rgba(0, 0, 0, 0.479);
+      text-align: center;
+      position: relative;
+    }
+
+    .divone {
+
+
+      background-color: rgb(224, 11, 40);
+      margin: auto;
+
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 500px;
+      padding-right: 50px;
+
+    }
+  </style>
+</head>
+
+<body
+  style="background-image: url('https://blog.hdwallsource.com/wp-content/uploads/2015/12/music-notes-wallpaper-16213-16712-hd-wallpapers.jpg');">
+  <header class="head">
+    <h2 style="padding-top: 20px; color: cornsilk;">EXPENSE TRACKER</h2>
+    <nav aria-label="primary">
+      <ul>
+        <li class="item"><a href='/'>
+            <h4 style="color: cornsilk; text-decoration: none;">Home</h4>
+          </a></li>
+        <!-- <li class="item"><a href='/about'>
+            <h4 style="color: cornsilk;">Your Expense</h4>
+          </a></li> -->
+          <li class="item"><a href='/expense'>
+            <h4 style="color: cornsilk;">Your Expense</h4>
+          </a></li>
+        <!-- <li class="item"><a href='/sign'>
+            <h4 style="color: cornsilk;">Sign up</h4>
+          </a></li> -->
+        <li class="item"><a href='/contact'>
+            <h4 style="color: cornsilk;">Contact</h4>
+          </a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <!-- <h3> this is the home page of our website</h3> -->
+
+  <div class="divone">
+    <h2 style="margin: auto; font-family: sans-serif ;">welcome to the Expense tracker website.</h2>
+  </div>
+  <div class="card" style="
+  width: 40rem;
+    margin-top: 43px;
+    margin-right: 1103px;
+    margin-bottom: -168px;
+    margin-left: 171px;">
+    <div class="card-body">
+      <h5 class="card-title">Expense Tracker</h5>
+      <p class="card-text">This is something you searching for .This is the best website to track your Exoense easily </p>
+      <a href="/about" class="btn btn-primary">lets Track</a>
+    </div>
+  </div>
+  <div style=" 
+  padding-left: 975px;
+    padding-right: 102px;
+    padding-top: 25px;">
+
+    <form style=" padding-top: 30px;
+  padding-left: 8px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  background-color: rgb(241 241 241); " action="/" method="POST">
+      <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" name="Email" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3" name="Password" required>
+        </div>
+      </div>
+      <!-- <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            First radio
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Second radio
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+          <label class="form-check-label" for="gridRadios3">
+            Third disabled radio
+          </label>
+        </div>
+      </div>
+    </fieldset> -->
+      <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Confirm
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+      <button type="submit" class="btn btn-primary" style="margin-left: 80px;">Sign in</button>
+      <h5>don't have an account? <a href="/sign">create one</a></h5>
+      
+     
+      
+    </form>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+
+<!-- <footer style="background-color: black; display: flex; justify-content: center; margin-bottom: 0cm;"><h4 style="color: blanchedalmond;">owner of the website: Ravi sharma</h4></footer> -->
+
+
+</html>

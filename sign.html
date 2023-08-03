@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>sign up</title>
+  <style>
+    li {
+      margin: 20px;
+      list-style: none;
+      font-family: serif;
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    ul {
+      padding-left: 550px;
+      display: flex;
+    }
+
+    .head {
+      background-color: #333;
+      text-align: center;
+      position: relative;
+    }
+
+    .sup {
+      margin:50px 535px 20px 535px ;
+      /* margin: auto; */
+      /* margin-top: 20px;
+      text-align:center;
+ /* margin-top:50%; */
+ margin-bottom:50%; 
+
+      /* margin: 517px;
+      margin-top: 5px;
+      margin-bottom: 0vmin; */
+      padding: 5px;
+      padding-top: 10px;
+      background-color: white;
+      align-items: center;
+      border-radius: 20px;
+      border-style: calc();
+      border-color: black;
+      border-width: 5px;
+      
+
+
+    }
+
+    .in1 {
+
+      margin: 5px 10px 5px 10px;
+      padding: 5px 10px 5px 10px;
+
+    }
+
+    .in2 {
+
+
+      margin: 5px 10px 5px 10px;
+      padding: 5px 231px 5px 10px;
+
+    }
+  </style>
+</head>
+
+<body style="background-color: gray;">
+
+  <header class="head">
+    
+    <nav aria-label="primary">
+      <ul>
+        <li class="item"><a href='/'>
+            <h4 style="color: cornsilk; text-decoration: none;">Home</h4>
+          </a></li>
+        <li class="item"><a href='/expense'>
+            <h4 style="color: cornsilk;">My Expense</h4>
+          </a></li>
+        <li class="item"><a href='/sign'>
+            <h4 style="color: cornsilk;">Sign up</h4>
+          </a></li>
+        <li class="item"><a href='/contact'>
+            <h4 style="color: cornsilk;">Contact</h4>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  
+
+  <div class="sup" >
+    <h2>Sign Up here</h2>
+    <h5 style="font-style: oblique ;">please fill in this form to create account</h5>
+    <form action="/sign" method="POST">
+    <div style="display: flex;"><input type="text" class="in1" name="FirstName" placeholder="First Name" required>
+      <input type="text" class="in1" name="LastName" placeholder="Last Name" required>
+    </div><br>
+    <div>
+      <input type="email" class="in2" name="Email" placeholder="Email" required><br><br>
+      <input type="password" class="in2" name="Password" placeholder="Password" required><br><br>
+      <input type="password" class="in2" name="ConfirmPassword" placeholder="Confirm Password" required>
+    </div>
+    <br>
+    <button type="submit" style="background-color: black(104, 104, 206) ; 
+        margin-left: 135px;
+    padding: 5px 20px 5px 20px;">sign up</button></form>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
